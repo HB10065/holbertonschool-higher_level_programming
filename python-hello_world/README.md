@@ -10,4 +10,4 @@ Contenidos del directorio:
 
 5-print_string.py - Imprime el contenido de un string 3 veces y luego de una salto de linea imprime solo sus primeros nueve caracteres.
 
-6-concat.py - "Imprime Welcome to Holberton School!" utilizando concatenacion de strings en el print().
+6-concat.py - "Imprime Welcome to Holberton School!" concatenando dos strings antes de usar print().
