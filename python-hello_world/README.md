@@ -13,3 +13,5 @@ Contenidos del directorio:
 6-concat.py - Imprime "Welcome to Holberton School!" concatenando dos strings antes de usar print().
 
 7-edges.py - crea 3 strings a partir de un string "word" ej: middle_word = word[+1:-1], y luego los imprime.
+
+8-concat_edges.py - modifica un string para luego imprimir "object-oriented programming with Python".
