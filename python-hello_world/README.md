@@ -9,3 +9,5 @@ Contenidos del directorio:
 4-print_float.py - Imprime un float (en este caso 3.14159) especificando que solo debe imprimir hasta dos lugares de despues de la coma.
 
 5-print_string.py - Imprime el contenido de un string 3 veces y luego de una salto de linea imprime solo sus primeros nueve caracteres.
+
+6-concat.py - "Imprime Welcome to Holberton School!" utilizando concatenacion de strings en el print().
