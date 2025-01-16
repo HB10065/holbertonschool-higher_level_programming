@@ -17,3 +17,5 @@ contenidos del directorio:
 6-print_comb3.py - imprime una combinacion de numeros de 2 digitos tomando en cuenta que, por ej: 01 y 10 se consideran lo mismo. Tambien se saltean las combinaciones iguales, ej: 00, 11, etc.
 
 7-islower.py - devuelve True si el caractér dado esta en minuscula, en cualquier otro caso devuelve False.
+
+8-uppercase.py - devuelve True si el caractér dado esta en mayuscula, en cualquier otro caso devuelve False.
