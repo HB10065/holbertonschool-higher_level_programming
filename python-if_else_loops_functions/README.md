@@ -18,4 +18,4 @@ contenidos del directorio:
 
 7-islower.py - devuelve True si el caractér dado esta en minuscula, en cualquier otro caso devuelve False.
 
-8-uppercase.py - devuelve True si el caractér dado esta en mayuscula, en cualquier otro caso devuelve False.
+8-uppercase.py - recibe un string y lo imprime en mayusculas.
