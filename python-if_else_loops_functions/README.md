@@ -25,3 +25,5 @@ contenidos del directorio:
 10-add.py - recibe dos numeros y devuelve su suma.
 
 11-pow.py - recibe dos numeros, a y b. Devuelve a ^ b
+
+12-fizzbuzz.py - imprime del 1 al 100 pero si el numero es multiplo de 3 imprime "Fizz" en lugar del numero, si es multiplo de 5 imprime "Buzz" y si es ambos imprime "FizzBuzz".
