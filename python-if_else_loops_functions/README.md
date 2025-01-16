@@ -21,3 +21,5 @@ contenidos del directorio:
 8-uppercase.py - recibe un string y lo imprime en mayusculas.
 
 9-print_last_digit.py - recibe un numero e imprime y devuelve su ultimo digito.
+
+10-add.py - recibe dos numero y devuelve su suma.
