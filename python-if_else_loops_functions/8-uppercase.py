@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-def islower(c):
-    for i in range(ord('A'), ord('Z') + 1):
-        if i == ord(c):
-            return True
-    return False
+def uppercase(str):
+    for a in str:
+        print(f'{chr(ord(a) - 32) if ord(a) >= ord('a') and a <= ord('z') else a}')
