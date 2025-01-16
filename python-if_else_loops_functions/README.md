@@ -27,3 +27,5 @@ contenidos del directorio:
 11-pow.py - recibe dos numeros, a y b. Devuelve a ^ b
 
 12-fizzbuzz.py - imprime del 1 al 100 pero si el numero es multiplo de 3 imprime "Fizz" en lugar del numero, si es multiplo de 5 imprime "Buzz" y si es ambos imprime "FizzBuzz".
+
+100-print_tebahpla.py - imprime el abecedario al revez y alterna entre caracteres minuscula y mayuscula.
