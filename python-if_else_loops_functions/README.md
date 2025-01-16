@@ -30,4 +30,4 @@ contenidos del directorio:
 
 100-print_tebahpla.py - imprime el abecedario al revez y alterna entre caracteres minuscula y mayuscula.
 
-101-remove_char_at.py - 
+101-remove_char_at.py - recibe un string y un numero, devuleve el string sin el caracter en la posicion del numero dado
