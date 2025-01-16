@@ -12,4 +12,4 @@ contenidos del directorio:
 
 4-print_hexa.py - imprime del 0 al 98 y su equivalente en hexadecimal.
 
-5-print_comb2.py - imprime del 0 al 99 utilziando un formato de dos cifras, sí el numero es de una cifra, rellena con 0 a la izquierda.
+5-print_comb2.py - imprime del 0 al 99 utilziando un formato de dos cifras y al final de cada numero una ',' a excepcion del ultimo numero, sí el numero es de una cifra, rellena con 0 a la izquierda.
