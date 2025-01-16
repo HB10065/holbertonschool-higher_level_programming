@@ -19,3 +19,5 @@ contenidos del directorio:
 7-islower.py - devuelve True si el caractér dado esta en minuscula, en cualquier otro caso devuelve False.
 
 8-uppercase.py - recibe un string y lo imprime en mayusculas.
+
+9-print_last_digit.py - recibe un numero e imprime y devuelve su ultimo digito.
