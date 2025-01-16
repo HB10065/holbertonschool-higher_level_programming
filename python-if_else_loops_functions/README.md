@@ -22,4 +22,6 @@ contenidos del directorio:
 
 9-print_last_digit.py - recibe un numero e imprime y devuelve su ultimo digito.
 
-10-add.py - recibe dos numero y devuelve su suma.
+10-add.py - recibe dos numeros y devuelve su suma.
+
+11-pow.py - recibe dos numeros, a y b. Devuelve a ^ b
