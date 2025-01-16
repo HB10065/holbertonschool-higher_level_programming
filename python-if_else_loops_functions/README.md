@@ -11,3 +11,5 @@ contenidos del directorio:
 3-print_alphabt.py - imprime el abecedario sin la 'e' y la 'q'.
 
 4-print_hexa.py - imprime del 0 al 98 y su equivalente en hexadecimal.
+
+5-print_comb2.py - imprime del 0 al 99 utilziando un formato de dos cifras, sí el numero es de una cifra, rellena con 0 a la izquierda.
