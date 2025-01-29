@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 def no_c(my_string):
     for i in my_string:
-        if i == 'c' or i == 'C':
-            i = ''
+        if my_string[i] == 'c' or my_string[i] == 'C':
+           my_string[i] = ''
