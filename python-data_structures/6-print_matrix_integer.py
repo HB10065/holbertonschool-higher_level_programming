@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     if matrix == [[]]:
-        print(' ')
+        print('')
         return
     for i in matrix:
         for j in range(len(i)):
