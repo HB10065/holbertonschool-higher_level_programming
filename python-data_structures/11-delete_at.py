@@ -7,5 +7,8 @@ def delete_at(my_list=[], idx=0):
     for i in range(len(my_list)):
         if i != idx:
             new_list.append(my_list[i])
-    my_list = new_list
+
+    for j in reversed(my_list):
+        my_list.remove(j)
+    my_list.copy(new_list)
     return my_list
