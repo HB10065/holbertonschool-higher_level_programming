@@ -7,5 +7,4 @@ Clases:
 '''
 class square:
     '''
-    clase con square
     '''
