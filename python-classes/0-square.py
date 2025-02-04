@@ -5,6 +5,8 @@ Modulo square
 Clases:
     square - square
 '''
+
+
 class square:
     '''
     Clase square
