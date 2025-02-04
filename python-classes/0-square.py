@@ -7,7 +7,7 @@ Clases:
 """
 
 
-class square:
+class Square:
     """
     Clase square
     """
