@@ -9,3 +9,4 @@ class square:
     '''
     Clase square
     '''
+    pass
