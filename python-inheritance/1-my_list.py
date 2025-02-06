@@ -11,4 +11,6 @@ class MyList(list):
 
     def print_sorted(self):
         sort(list)
-        return list
+        for i in list:
+            print(f'{i}')
+        
