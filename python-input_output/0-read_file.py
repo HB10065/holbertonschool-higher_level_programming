@@ -8,5 +8,5 @@ def read_file(filename=""):
     '''
     Funcion
     '''
-    with open(filename, 'r'):
-        print(filename.read())
+    with open(filename, 'r') as t:
+        print(t.read())
