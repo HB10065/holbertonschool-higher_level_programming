@@ -10,3 +10,5 @@ def write_file(filename="", text=""):
     '''
     with open(filename, 'w') as t:
         t.write(text)
+
+    return len(text)
