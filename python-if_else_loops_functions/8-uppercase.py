@@ -2,5 +2,6 @@
 def uppercase(str):
     for i in str:
         if i in "abcdefghijklmnopqrstvwxyz":
-            i = ord(i) - 33
-    print("{}".format(str))
+            i = ord(i) - 32
+        str2 += i
+    print("{}".format(str2))
