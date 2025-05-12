@@ -11,4 +11,5 @@ def pow(a, b):
         c = 1 / a
         for i in range(1, -b):
             c = c * c
+        round(c, 2)
         return c
