@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 def uppercase(str):
     for i in str:
-        c = str[i]
-        if c.isupper():
+        if str[i] in "abcdefghijklmnopqrstvwxyz":
             str[i] = ord(str[i]) + 33
     print("{}".format(str))
