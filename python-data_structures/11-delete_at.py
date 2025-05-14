@@ -4,8 +4,3 @@ def delete_at(my_list=[], idx=0):
         return my_list
     del(my_list[idx])
     return my_list
-
-list = [1, 2, 3, 4, 5]
-new_list = delete_at(list, 2)
-print(list)
-print(new_list)
