@@ -2,7 +2,7 @@
 def delete_at(my_list=[], idx=0):
     new_list = []
     i = 0
-    while i <= len(my_list):
+    while i < len(my_list):
         if i == idx:
             i += 1
             continue
