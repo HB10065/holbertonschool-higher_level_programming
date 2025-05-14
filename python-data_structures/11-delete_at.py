@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 def delete_at(my_list=[], idx=0):
-    new_list = []
-    i = 0
-    while i < len(my_list):
-        if i == idx:
-            i += 1
-            continue
-        new_list = new_list + [my_list[i],]
-        i += 1
-    my_list = new_list.copy()
-    return new_list
+    if idx < 0 or idx >= len(my_list):
+        return my_list
+    del(my_list[idx])
+    return my_list
+
+list = [1, 2, 3, 4, 5]
+new_list = delete_at(list, 2)
+print(list)
+print(new_list)
