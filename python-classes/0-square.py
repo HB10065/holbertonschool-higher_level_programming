@@ -3,6 +3,7 @@
 Module Documentation
 '''
 
+
 class Square:
     '''
     Class that represents a square
