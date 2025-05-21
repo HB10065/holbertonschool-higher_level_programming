@@ -39,7 +39,7 @@ class Rectangle:
         self.__height = value
 
     '''Dunder Methods'''
-    def __repr__(self):
+    def __str__(self):
         if self.height == 0 or self.width == 0:
             return ''
         else:
