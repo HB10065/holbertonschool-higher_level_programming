@@ -46,10 +46,11 @@ class Rectangle:
             return ''
         else:
             str = ''
-            for i in range(self.height - 1):
+            for i in range(self.height):
                 for j in range(self.width):
                     str = str + '#'
-                str = str + '\n'
+                if i != self.height:
+                    str = str + '\n'
             return str
 
     '''Public Methods'''
