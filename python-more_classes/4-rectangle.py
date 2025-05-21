@@ -49,7 +49,7 @@ class Rectangle:
             for i in range(self.height):
                 for j in range(self.width):
                     str = str + '#'
-                if i != self.height:
+                if i != self.height - 1:
                     str = str + '\n'
             return str
 
