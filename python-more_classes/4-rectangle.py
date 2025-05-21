@@ -45,10 +45,12 @@ class Rectangle:
         if self.height == 0 or self.width == 0:
             return ''
         else:
+            str = ''
             for i in range(self.height):
                 for j in range(self.width):
-                    print('#', end='')
-                print()
+                    str = str + '#'
+                str = str + '\n'
+            return str
 
     '''Public Methods'''
     def area(self):
