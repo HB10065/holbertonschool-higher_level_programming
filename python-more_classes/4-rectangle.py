@@ -38,6 +38,8 @@ class Rectangle:
         self.__height = value
 
     '''Dunder Methods'''
+    def __repr__(self):
+        return 'Rectangle(' + str(self.width) + ', ' + str(self.height) + ')'
 
     def __str__(self):
         if self.height == 0 or self.width == 0:
