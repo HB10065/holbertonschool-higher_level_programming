@@ -46,7 +46,7 @@ class Rectangle:
             return ''
         else:
             str = ''
-            for i in range(self.height):
+            for i in range(self.height - 1):
                 for j in range(self.width):
                     str = str + '#'
                 str = str + '\n'
