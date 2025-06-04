@@ -16,6 +16,7 @@ def load_from_json_file(filename):
         obj = json.loads(file.read())
     return obj
 
+
 def save_to_json_file(my_obj, filename):
     '''
     Function Documentation
@@ -23,6 +24,7 @@ def save_to_json_file(my_obj, filename):
 
     with open(filename, 'w') as file:
         json.dump(my_obj, file)
+
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
