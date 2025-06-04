@@ -26,6 +26,6 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         new_list = []
         for i in range(1, len(sys.argv)):
-            new_list = new_list + sys.argv[i]
+            new_list.append(sys.argv[i])
     with open('add_item.json', 'w') as file:
         file.write(new_list)
