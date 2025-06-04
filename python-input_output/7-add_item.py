@@ -4,6 +4,7 @@ Module Documentation
 '''
 import sys
 import json
+import os
 
 
 def load_from_json_file(filename):
@@ -25,7 +26,11 @@ def save_to_json_file(my_obj, filename):
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
-        new_list = []
+        if os.path.exists('add_item.json'):
+            new_list = load_from_json_file('add_item.json')
+        else:
+            new_list = []
+
         for i in range(1, len(sys.argv)):
             new_list.append(sys.argv[i])
     save_to_json_file(new_list, 'add_item.json')
