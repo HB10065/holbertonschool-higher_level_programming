@@ -27,5 +27,4 @@ if __name__ == '__main__':
         new_list = []
         for i in range(1, len(sys.argv)):
             new_list.append(sys.argv[i])
-    with open('add_item.json', 'w') as file:
-        file.write(new_list)
+    save_to_json_file(new_list, 'add_item.json')
