@@ -1,2 +1,2 @@
 --
-SELECT name FROM  sys.databases
+SHOW DATABASES;
