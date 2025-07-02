@@ -1,2 +1,2 @@
 --
-SELECT AVG(score) FROM second_table;
+SELECT AVG(score) as avarage FROM second_table;
