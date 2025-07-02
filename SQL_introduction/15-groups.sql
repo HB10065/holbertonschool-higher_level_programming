@@ -1,4 +1,3 @@
 --
-SELECT COUNT(*) FROM second_table
-WHERE score = score
-ORDER BY score DESC;
+SELECT score, COUNT(*) as number FROM second_table
+GROUP BY score;
