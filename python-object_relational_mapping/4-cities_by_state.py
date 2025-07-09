@@ -17,7 +17,7 @@ if __name__ == '__main__':
     )
 
     cursor = s_con.cursor()
-    cursor.execute('SELECT * FROM cities'
+    cursor.execute('SELECT id, name,  FROM cities'
                    ' ORDER BY cities.id ASC')
     for row in cursor.fetchall():
         print(row)
