@@ -22,9 +22,6 @@ class Circle(Shape):
     Class Doc
     '''
     def __init__(self, radius):
-        if radius < 0:
-            raise ValueError('radius must be grater or equal to zero')
-        
         self.__radius = abs(radius)
 
     def perimeter(self):
