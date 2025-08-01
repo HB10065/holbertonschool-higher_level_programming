@@ -4,7 +4,7 @@ Module Doc
 '''
 
 
-class Mylist(list):
+class MyList(list):
     '''
     Class Doc
     '''
