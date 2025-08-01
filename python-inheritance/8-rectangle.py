@@ -11,7 +11,7 @@ class Rectangle(base_geoemtry):
     '''
     def __init__(self, width, height):
         self.integer_validator('width', width)
-        self.intger_validator('width', width)
+        self.integer_validator('width', width)
 
         self.__width = width
         self.__height = height
