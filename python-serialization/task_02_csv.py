@@ -11,8 +11,8 @@ def convert_csv_to_json(csv_filename):
     Function Doc
     '''
     try:
-        with open(csv_filename, newline="") as f:
-            reader = csv.DictReader(f)
+        with open(csv_filename, newline="") as file:
+            reader = csv.DictReader(file)
             data = list(reader)
 
         with open("data.json", "w") as json_file:
