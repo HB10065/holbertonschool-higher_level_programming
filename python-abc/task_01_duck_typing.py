@@ -25,7 +25,7 @@ class Circle(Shape):
         if radius < 0:
             raise ValueError('radius must be grater or equal to zero')
         
-        self.__radius = radius
+        self.__radius = abs(radius)
 
     def perimeter(self):
         return 2 * math.pi * self.__radius
