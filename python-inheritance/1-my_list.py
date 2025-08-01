@@ -8,6 +8,5 @@ class Mylist(list):
     '''
     Class Doc
     '''
-
     def print_sorted(self):
-        return sorted(self)
+        print(sorted(self))
