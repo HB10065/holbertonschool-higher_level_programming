@@ -2,8 +2,7 @@
 '''
 Module Doc
 '''
-import importlib
-base_geoemtry = importlib.import_module('7-base_geometry').BaseGeometry
+base_geoemtry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(base_geoemtry):
