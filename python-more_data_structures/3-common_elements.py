@@ -5,5 +5,5 @@ def common_elements(set_1, set_2):
         for element2 in set_2:
             if element1 == element2:
                 new_set.add(element1)
-
+    # doable with just the line: return set_1 & set_2
     return new_set
