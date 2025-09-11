@@ -7,5 +7,5 @@ def uniq_add(my_list=[]):
     num = 0
     for element2 in new_list:
         num += element2
-    
+
     return num
