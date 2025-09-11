@@ -4,7 +4,7 @@ def uniq_add(my_list=[]):
     for element in my_list:
         if element not in new_list:
             new_list.append(element)
-    
+    num = 0
     for element2 in new_list:
         num += element2
     
