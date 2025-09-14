@@ -1,5 +1,14 @@
 #!/usr/bin/python3
+'''
+Module Doc
+'''
+
+
+
 def matrix_divided(matrix, div):
+    '''
+    Function Doc
+    '''
     for row in matrix:
         for element in row:
             if not isinstance(element, int) and\
