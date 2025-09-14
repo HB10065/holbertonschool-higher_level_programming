@@ -8,4 +8,5 @@ def safe_print_list(my_list=[], x=0):
         print()
         return total_prints
     except IndexError:
-        print('x cannot be larger than the list')
+        print()
+        return total_prints
