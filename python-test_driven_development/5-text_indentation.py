@@ -18,4 +18,4 @@ def text_indentation(text):
         if c in '.?:':
             new_str += '\n\n'
 
-    print(new_str.strip())
+    print(new_str, end='')
