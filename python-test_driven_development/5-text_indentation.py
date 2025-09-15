@@ -1,5 +1,14 @@
 #!/usr/bin/python3
+'''
+Module Doc
+'''
+
+
+
 def text_indentation(text):
+    '''
+    Function Doc
+    '''
     if not isinstance(text, str):
         raise TypeError('text must be a string')
 
