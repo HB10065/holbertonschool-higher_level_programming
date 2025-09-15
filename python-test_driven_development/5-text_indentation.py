@@ -1,0 +1,12 @@
+#!usr/bin/python3
+def text_indentation(text):
+    if not isinstance(text, str):
+        raise TypeError('text must be a string')
+
+    new_str = ''
+    for c in text:
+        new_str += c
+        if c in '.?:':
+            new_str += '\n'
+
+    print(new_str)
