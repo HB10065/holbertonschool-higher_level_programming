@@ -16,6 +16,6 @@ def text_indentation(text):
     for c in text:
         new_str += c
         if c in '.?:':
-            new_str += '\n'
+            new_str += '\n\n'
 
     print(new_str)
