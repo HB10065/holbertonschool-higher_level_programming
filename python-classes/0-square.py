@@ -4,7 +4,6 @@ This module contains an empty class
 '''
 
 
-
 class Square():
     '''
     empty class
