@@ -8,8 +8,9 @@ class Square():
     '''
     empty class
     '''
-    def __init__(self, size=0):
+    def __init__(self, size=0, position=(0, 0)):
         self.__size = size
+        self.__position = position
 
     # Getters and Setters
     @property
@@ -26,16 +27,28 @@ class Square():
             raise ValueError('size must be >= 0')
         self.__size = value
 
+    @property
+    def position(self):
+        '''getter of position'''
+        return self.__position
+
+    @position.setter
+    def position(self, value):
+        if not isinstance(value, tuple) and len(value) != 2 \
+        and not isinstance(value[0], int) and not isinstance(value[1], int):
+            raise TypeError('position must be a tuple of 2 positive integers')
+        self.__position = value
+
     # Methods
     def area(self):
         return self.__size ** 2
 
-    def my_print(self, position):
-        for _ in range(position[1]):
+    def my_print(self):
+        for _ in range(self.__position[1]):
             print()
 
         for _ in range(self.__size):
-            for _ in range(position[0]):
+            for _ in range(self.__position[0]):
                 print(' ', end='')
 
             for _ in range(self.__size):
