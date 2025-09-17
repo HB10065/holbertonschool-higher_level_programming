@@ -9,7 +9,6 @@ class Rectangle():
     '''
     Class Rectangle
     private Instance Attributes: width, height
-    public Instance Attributes: print_symbol
     Public Class Attributes: number_of_instances, print_symbol
     Methods:
         area: returns the area of the Rectangle
@@ -25,7 +24,6 @@ class Rectangle():
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
-        self.print_symbol = Rectangle.print_symbol
         Rectangle.number_of_instances += 1
 
     # Getters and Setters
