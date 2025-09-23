@@ -2,6 +2,8 @@
 '''
 Module Doc
 '''
+
+
 def is_same_class(obj, a_class):
     '''
     Function is_same_class
