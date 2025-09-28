@@ -1,0 +1,1 @@
+>>> BaseGeometry = __import__('7-base-geometry.py').BaseGeometry
