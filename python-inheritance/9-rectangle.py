@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+'''
+This moduel contains a class copied off of '7-base_geometry' and
+another class 'Rectangle' that ingerits from it
+'''
+
+
+class BaseGeometry():
+    '''
+    Public Instance Methods:
+        area: not implemented yet
+        integer_validator: Validates for int and greater than 0
+    '''
+    # Methods
+    def area(self):
+        raise Exception('area() is not implemented')
+
+    def integer_validator(self, name, value):
+        if type(value) is not int:
+            raise TypeError('{} must be an integer'.format(name))
+        if value <= 0:
+            raise ValueError('{} must be greater than 0'.format(name))
+
+
+class Rectangle(BaseGeometry):
+    '''
+    Private Instance Attributes:
+        __width
+        __height
+    '''
+    def __init__(self, width, height):
+        self.integer_validator('width', width)
+        self.integer_validator('height', height)
+        self.__width = width
+        self.__height = height
+
+    # Methods
+    def area(self):
+        return self.__width * self.__height
+
+    def __str__(self):
+        return '[Rectangle] ' + str(self.__width) + '/' + str(self.__height)
