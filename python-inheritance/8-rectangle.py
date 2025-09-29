@@ -1,9 +1,25 @@
 #!/usr/bin/python3
 '''
-This moduel contains a class that inherits from BaseGeometry
-from '7-base_geometry'
+This moduel contains a class copied off of '7-base_geometry' and
+another class 'Rectangle' that ingerits from it
 '''
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+
+class BaseGeometry():
+    '''
+    Public Instance Methods:
+        area: not implemented yet
+        integer_validator: Validates for int and greater than 0
+    '''
+    # Methods
+    def area(self):
+        raise Exception('area() is not implemented')
+
+    def integer_validator(self, name, value):
+        if type(value) is not int:
+            raise TypeError('{} must be an integer'.format(name))
+        if value <= 0:
+            raise ValueError('{} must be greater than 0'.format(name))
 
 
 class Rectangle(BaseGeometry):
