@@ -18,6 +18,8 @@ class Shape(ABC):
 class Circle(Shape):
     '''Class'''
     def __init__(self, radius):
+        if radius < 0:
+            radius = -radius
         self.__radius = radius
 
     def area(self):
