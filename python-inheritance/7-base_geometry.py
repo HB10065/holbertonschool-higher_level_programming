@@ -8,6 +8,7 @@ class BaseGeometry():
     '''
     Public Instance Methods:
         area: not implemented yet
+        integer_validator: Validates for int and greater than 0
     '''
     # Methods
     def area(self):
