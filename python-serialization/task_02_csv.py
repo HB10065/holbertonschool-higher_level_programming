@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-'''Module Doc'''
+'''
+Module Doc
+'''
 import json, csv
 
 
 def convert_csv_to_json(file_name):
-    '''csv ro json'''
+    '''convert the contents of a csv file to json'''
     try:
         with open(file_name, newline='') as csv_file:
             reader = csv.DictReader(csv_file)
@@ -12,7 +14,7 @@ def convert_csv_to_json(file_name):
 
         with ('data.json', 'w')as json_file:
             json.dump(data, json_file)
-    
+
         return True
     except Exception:
         return False
