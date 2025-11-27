@@ -14,6 +14,6 @@ def convert_csv_to_json(file_name):
             json.dump(data, json_file)
     
         return True
-    
+
     except Exception:
         return False
