@@ -21,4 +21,3 @@ class BaseGeometry():
             raise ValueError("{} must be greater than 0".format(name))
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
-
