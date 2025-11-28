@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const {argv} = require('node:process');
+const { argv } = require('node:process');
 const size = parseInt(argv[2]);
 const character = 'X';
 
